@@ -12,7 +12,7 @@ import HeaderItem from "./HeaderItem";
 
 function Header() {
 	return (
-		<header className="flex flex-col p-5 sm:flex-row items-center w-screen justify-between h-auto">
+		<header className="flex flex-col p-5 sm:flex-row items-center w-screen justify-between h-auto mb-8">
 			<div className="flex flex-grow justify-evenly max-w-2xl mb-5 sm:mb-0">
 				<HeaderItem title="HOME" Icon={HomeIcon} />
 				<HeaderItem title="TRENDING" Icon={LightningBoltIcon} />

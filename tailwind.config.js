@@ -6,12 +6,16 @@ module.exports = {
 	],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
-		extend: {},
+		extend: {
+			screens: {
+				"3xl": "2000px",
+			},
+		},
 	},
 	variants: {
 		extend: {
 			animation: ["hover"],
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwind-scrollbar-hide")],
 };
