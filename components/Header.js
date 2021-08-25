@@ -22,7 +22,7 @@ function Header() {
 				<HeaderItem title="ACCOUNT" Icon={UserIcon} />
 			</div>
 
-			<div className="relative h-8 w-20">
+			<div className="relative h-8 mr-5 w-20">
 				<Image
 					src="https://upload.wikimedia.org/wikipedia/commons/3/30/Hulu_logo_2017.svg"
 					alt=""
